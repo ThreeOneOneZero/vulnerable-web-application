@@ -1,0 +1,42 @@
+# Ambiente do alvo vulneravel - Trabalho 1 (Seguranca de Sistemas Computacionais)
+# Cenario A: OWASP Juice Shop
+#
+# IMPORTANTE (conduta de laboratorio isolado):
+# a porta e ligada em 127.0.0.1, entao o alvo vulneravel fica acessivel
+# APENAS nesta maquina, nunca exposto na rede.
+#
+# Subir:   docker compose up
+# Acessar: http://127.0.0.1:3000
+# Derrubar: docker compose down
+
+services:
+  juice-shop:
+    image: bkimminich/juice-shop
+    container_name: juice-shop
+    ports:
+      - "127.0.0.1:3000:3000"
+    networks:
+      - labnet
+    restart: unless-stopped
+
+networks:
+  labnet:
+    driver: bridge
+
+# --------------------------------------------------------------------------
+# Cenario B (alternativa): OWASP WebGoat + WebWolf
+# Descomente este bloco e comente o juice-shop acima se optarem pelo WebGoat.
+# Acessar: http://127.0.0.1:8080/WebGoat
+#
+#  webgoat:
+#    image: webgoat/webgoat
+#    container_name: webgoat
+#    ports:
+#      - "127.0.0.1:8080:8080"
+#      - "127.0.0.1:9090:9090"
+#    environment:
+#      - WEBGOAT_HOST=0.0.0.0
+#      - WEBWOLF_HOST=0.0.0.0
+#    networks:
+#      - labnet
+# --------------------------------------------------------------------------
