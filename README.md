@@ -15,7 +15,7 @@ Alvo escolhido: **Cenário A — OWASP Juice Shop** (loja online deliberadamente
 
 | Nome                        | Papel na execução           |
 | --------------------------- | --------------------------- |
-| _(Leonardo Pacheco B Dias)_ | _(exploração A01/A02/A03)_  |
+| _(Leonardo Pacheco B Dias)_ | _(A01/A02/A03)_             |
 | _(preencher)_               | _(ex.: exploração A02/A05)_ |
 | _(preencher)_               | _(ex.: CVSS e relatório)_   |
 | _(preencher)_               | _(ex.: ...)_                |
