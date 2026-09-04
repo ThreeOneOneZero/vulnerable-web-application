@@ -6,19 +6,19 @@
 Alvo escolhido: **Cenário A — OWASP Juice Shop** (loja online deliberadamente vulnerável, mantida pela OWASP).
 
 > ⚠️ **Ética e legalidade.** O alvo é propositalmente vulnerável e roda em rede isolada,
-> acessível apenas em `127.0.0.1`. Testar sistemas de terceiros sem autorização é crime
+> acessível apenas em `127.0.0.1`. Testar sistemas de terceiros sem autorização é crime (conforme professor falou em aula)
 > (Lei 12.737/2012). Todo teste deste trabalho é feito no próprio ambiente local.
 
 ---
 
 ## Equipe
 
-| Nome | Papel na execução |
-|------|-------------------|
-| _(preencher)_ | _(ex.: exploração A01/A03)_ |
-| _(preencher)_ | _(ex.: exploração A02/A05)_ |
-| _(preencher)_ | _(ex.: CVSS e relatório)_ |
-| _(preencher)_ | _(ex.: evidências e Git)_ |
+| Nome                        | Papel na execução           |
+| --------------------------- | --------------------------- |
+| _(Leonardo Pacheco B Dias)_ | _(exploração A01/A02/A03)_  |
+| _(preencher)_               | _(ex.: exploração A02/A05)_ |
+| _(preencher)_               | _(ex.: CVSS e relatório)_   |
+| _(preencher)_               | _(ex.: ...)_                |
 
 ---
 
@@ -47,20 +47,24 @@ docker compose down
   ```
 - **Máquina de teste:** host local (Windows).
 
+**ANOTANDO DADOS PRA DEPOIS PREENCHER README**
+rede -> labnet
+sub-rede 172.19.0.0/16
+
 ---
 
 ## Cobertura de vulnerabilidades (mínimo 6 categorias)
 
 Obrigatórias: **A01**, **A02**, **A03**. As demais para fechar 6.
 
-| ID | OWASP | Categoria | Status | Onde procurar no Juice Shop |
-|----|-------|-----------|--------|------------------------------|
-| A01 | Broken Access Control | **obrigatória** | ⬜ | cesta/pedidos por ID (`/rest/basket/{id}`), painel admin, feedbacks |
-| A02 | Cryptographic Failures | **obrigatória** | ⬜ | hashes de senha fracos, cookies sem flags, tokens |
-| A03 | Injection (SQLi/XSS) | **obrigatória** | ⬜ | busca de produtos, login (`/rest/user/login`) |
-| A05 | Security Misconfiguration | opcional | ⬜ | erros verbosos, arquivos/endpoints expostos |
-| A06 | Vulnerable & Outdated Components | opcional | ⬜ | libs JS do front, `package.json`, versões |
-| A07 | Identification & Auth Failures | opcional | ⬜ | senhas fracas, sem bloqueio de brute force, JWT |
+| ID  | OWASP                            | Categoria       | Status | Onde procurar no Juice Shop                                         |
+| --- | -------------------------------- | --------------- | ------ | ------------------------------------------------------------------- |
+| A01 | Broken Access Control            | **obrigatória** | ⬜     | cesta/pedidos por ID (`/rest/basket/{id}`), painel admin, feedbacks |
+| A02 | Cryptographic Failures           | **obrigatória** | ⬜     | hashes de senha fracos, cookies sem flags, tokens                   |
+| A03 | Injection (SQLi/XSS)             | **obrigatória** | ⬜     | busca de produtos, login (`/rest/user/login`)                       |
+| A05 | Security Misconfiguration        | opcional        | ⬜     | erros verbosos, arquivos/endpoints expostos                         |
+| A06 | Vulnerable & Outdated Components | opcional        | ⬜     | libs JS do front, `package.json`, versões                           |
+| A07 | Identification & Auth Failures   | opcional        | ⬜     | senhas fracas, sem bloqueio de brute force, JWT                     |
 
 > Para categorias não encontradas no alvo, o relatório deve **explicar por que não se aplicam ou não foram observadas**.
 
