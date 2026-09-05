@@ -4,8 +4,12 @@
 .DS_Store
 Thumbs.db
 
+# configuracao local (porta customizada); mantenha .env.example versionado
+.env
+
 # python
 __pycache__/
 *.pyc
 .venv/
 venv/
+*.egg-info/

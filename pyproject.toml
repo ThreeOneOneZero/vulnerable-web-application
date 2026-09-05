@@ -1,0 +1,11 @@
+[project]
+name = "vulnerable-web-application"
+version = "0.1.0"
+description = "Trabalho 1: avaliação de vulnerabilidades no OWASP Juice Shop, com classificação OWASP Top 10, CWE e CVSS."
+requires-python = ">=3.11"
+dependencies = [
+    "requests>=2.31",
+]
+
+[tool.setuptools.packages.find]
+include = ["scripts*"]
