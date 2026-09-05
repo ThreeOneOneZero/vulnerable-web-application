@@ -1,0 +1,15 @@
+HTTP 200 OK
+Access-Control-Allow-Origin: *
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Feature-Policy: payment 'self'
+X-Recruiting: /#/jobs
+Content-Type: application/json; charset=utf-8
+Content-Length: 158
+ETag: W/"9e-PRc2t0PEcaIasT6CPJONtcEw7Do"
+Vary: Accept-Encoding
+Date: Sat, 05 Sep 2026 18:34:57 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+{"status":"success","data":{"id":10,"ProductId":1,"BasketId":"17","quantity":2,"updatedAt":"2026-09-05T18:34:57.884Z","createdAt":"2026-09-05T18:34:57.884Z"}}
