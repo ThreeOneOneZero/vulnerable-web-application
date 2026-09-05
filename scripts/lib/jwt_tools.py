@@ -20,8 +20,18 @@ def decodificar_payload(token: str) -> dict:
 
     Returns:
         O payload decodificado como dicionário.
+
+    Raises:
+        ValueError: quando `token` não tem ao menos os segmentos de
+            header e payload separados por ponto.
     """
-    payload_b64 = token.split(".")[1]
+    partes = token.split(".")
+    if len(partes) < 2:
+        raise ValueError(
+            f"Token JWT malformado: esperado ao menos 2 segmentos "
+            f"separados por '.', recebido {len(partes)}."
+        )
+    payload_b64 = partes[1]
     # JWT usa base64url sem padding; o padding precisa ser recalculado
     # manualmente antes de chamar o decodificador padrão da biblioteca.
     payload_b64 += "=" * (-len(payload_b64) % 4)

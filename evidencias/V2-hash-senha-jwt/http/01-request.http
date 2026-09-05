@@ -6,4 +6,4 @@ Connection: keep-alive
 Content-Length: 180
 Content-Type: application/json
 
-{"email": "crypto-28273d8c0d@lab.local", "password": "SenhaDeAnalise#3", "passwordRepeat": "SenhaDeAnalise#3", "securityQuestion": {"id": 1}, "securityAnswer": "resposta-de-teste"}
+{"email": "crypto-3261bba9d2@lab.local", "password": "SenhaDeAnalise#3", "passwordRepeat": "SenhaDeAnalise#3", "securityQuestion": {"id": 1}, "securityAnswer": "resposta-de-teste"}

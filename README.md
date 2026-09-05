@@ -38,7 +38,7 @@ Para derrubar:
 docker compose down
 ```
 
-A imagem é fixada em uma tag versionada (`bkimminich/juice-shop:v20.2.0`, não `latest`), para que o ambiente seja o mesmo em qualquer máquina e em qualquer data. O contêiner tem healthcheck configurado; `docker compose ps` mostra `healthy` quando o Juice Shop está pronto para uso.
+A imagem é fixada em uma tag versionada (`bkimminich/juice-shop:v20.2.0`, não `latest`), para que o ambiente seja o mesmo em qualquer máquina e em qualquer data. Digest da imagem, para conferência: `sha256:8739101ade29358abb5469ee66ae78e582c97ed0a5543a4ad102e5fa5193526b` (obtido com `docker inspect --format='{{index .RepoDigests 0}}' bkimminich/juice-shop:v20.2.0` após o primeiro `docker compose up`). O contêiner tem healthcheck configurado; `docker compose ps` mostra `healthy` quando o Juice Shop está pronto para uso.
 
 ### Endereços de rede a documentar no relatório
 

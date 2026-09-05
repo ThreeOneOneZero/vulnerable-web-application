@@ -24,7 +24,10 @@ class ScopedSession:
 
         Args:
             recorder: gravador de evidência opcional; quando fornecido,
-                toda requisição bem-sucedida é registrada automaticamente.
+                toda requisição concluída é registrada automaticamente,
+                independentemente do status HTTP retornado (inclui
+                respostas de erro, como as tentativas incorretas de
+                V6 e V7).
         """
         self._session = requests.Session()
         self._recorder = recorder

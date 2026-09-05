@@ -26,8 +26,8 @@ def _load_dotenv(path: Path) -> None:
         os.environ.setdefault(key.strip(), value.strip())
 
 
-_load_dotenv(REPO_ROOT / ".env.example")
 _load_dotenv(REPO_ROOT / ".env")
+_load_dotenv(REPO_ROOT / ".env.example")
 
 JUICESHOP_HTTP_PORT = int(os.environ.get("JUICESHOP_HTTP_PORT", "3000"))
 BASE_URL = f"http://127.0.0.1:{JUICESHOP_HTTP_PORT}"

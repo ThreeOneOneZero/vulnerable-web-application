@@ -4,13 +4,13 @@ X-Content-Type-Options: nosniff
 X-Frame-Options: SAMEORIGIN
 Feature-Policy: payment 'self'
 X-Recruiting: /#/jobs
-Location: /api/Users/37
+Location: /api/Users/42
 Content-Type: application/json; charset=utf-8
 Content-Length: 316
-ETag: W/"13c-Nw+91RqRCUtFouLQ9UxR9vrpm4I"
+ETag: W/"13c-UCZM8bvYWF5E8sGMaPkPIb9K4fI"
 Vary: Accept-Encoding
-Date: Sat, 05 Sep 2026 18:34:57 GMT
+Date: Sat, 05 Sep 2026 19:52:04 GMT
 Connection: keep-alive
 Keep-Alive: timeout=5
 
-{"status":"success","data":{"username":"","role":"customer","deluxeToken":"","lastLoginIp":"0.0.0.0","profileImage":"/assets/public/images/uploads/default.svg","isActive":true,"id":37,"email":"idor-e6f894e3ec@lab.local","updatedAt":"2026-09-05T18:34:57.705Z","createdAt":"2026-09-05T18:34:57.705Z","deletedAt":null}}
+{"status":"success","data":{"username":"","role":"customer","deluxeToken":"","lastLoginIp":"0.0.0.0","profileImage":"/assets/public/images/uploads/default.svg","isActive":true,"id":42,"email":"idor-01ea4d1571@lab.local","updatedAt":"2026-09-05T19:52:04.676Z","createdAt":"2026-09-05T19:52:04.676Z","deletedAt":null}}

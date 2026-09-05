@@ -1,11 +1,11 @@
-Email de teste: crypto-28273d8c0d@lab.local
+Email de teste: crypto-3261bba9d2@lab.local
 Senha em texto claro usada no cadastro: SenhaDeAnalise#3
 Payload decodificado do JWT (base64, sem verificação de assinatura):
 {
   "data": {
-    "id": 36,
+    "id": 41,
     "username": "",
-    "email": "crypto-28273d8c0d@lab.local",
+    "email": "crypto-3261bba9d2@lab.local",
     "password": "8b8c7a4e51e96bd9c5355af999eabf07",
     "role": "customer",
     "deluxeToken": "",
@@ -13,12 +13,12 @@ Payload decodificado do JWT (base64, sem verificação de assinatura):
     "profileImage": "/assets/public/images/uploads/default.svg",
     "totpSecret": "",
     "isActive": true,
-    "createdAt": "2026-09-05 18:34:57.344 +00:00",
-    "updatedAt": "2026-09-05 18:34:57.344 +00:00",
+    "createdAt": "2026-09-05 19:52:04.301 +00:00",
+    "updatedAt": "2026-09-05 19:52:04.301 +00:00",
     "deletedAt": null
   },
-  "bid": 16,
-  "iat": 1788633297
+  "bid": 21,
+  "iat": 1788637924
 }
 
 Hash presente no campo 'password' do payload: 8b8c7a4e51e96bd9c5355af999eabf07

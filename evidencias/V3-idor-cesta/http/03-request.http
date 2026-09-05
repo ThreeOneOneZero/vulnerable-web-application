@@ -6,4 +6,4 @@ Connection: keep-alive
 Content-Length: 170
 Content-Type: application/json
 
-{"email": "idor-2e3aad963a@lab.local", "password": "OutraSenha#2", "passwordRepeat": "OutraSenha#2", "securityQuestion": {"id": 1}, "securityAnswer": "resposta-de-teste"}
+{"email": "idor-e7de49555a@lab.local", "password": "OutraSenha#2", "passwordRepeat": "OutraSenha#2", "securityQuestion": {"id": 1}, "securityAnswer": "resposta-de-teste"}

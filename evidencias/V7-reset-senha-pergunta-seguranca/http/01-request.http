@@ -6,4 +6,4 @@ Connection: keep-alive
 Content-Length: 110
 Content-Type: application/json
 
-{"email": "resetpwd-16e0419d42@lab.local", "password": "SenhaOriginal#1", "passwordRepeat": "SenhaOriginal#1"}
+{"email": "resetpwd-71e32870fe@lab.local", "password": "SenhaOriginal#1", "passwordRepeat": "SenhaOriginal#1"}

@@ -4,13 +4,13 @@ X-Content-Type-Options: nosniff
 X-Frame-Options: SAMEORIGIN
 Feature-Policy: payment 'self'
 X-Recruiting: /#/jobs
-Location: /api/SecurityAnswers/27
+Location: /api/SecurityAnswers/28
 Content-Type: application/json; charset=utf-8
 Content-Length: 226
-ETag: W/"e2-ygNkL/JFWVvCTs8ZjjGCyzdMkZA"
+ETag: W/"e2-h+WZrz7MRnvQwGcNlR6nBve9wUQ"
 Vary: Accept-Encoding
-Date: Sat, 05 Sep 2026 18:34:59 GMT
+Date: Sat, 05 Sep 2026 19:52:06 GMT
 Connection: keep-alive
 Keep-Alive: timeout=5
 
-{"status":"success","data":{"id":27,"SecurityQuestionId":1,"answer":"8c039f641abb04e0009036a4d6d86ed1de85705e87a3ef0115bf16e639d93094","UserId":40,"updatedAt":"2026-09-05T18:34:59.023Z","createdAt":"2026-09-05T18:34:59.023Z"}}
+{"status":"success","data":{"id":28,"SecurityQuestionId":1,"answer":"8c039f641abb04e0009036a4d6d86ed1de85705e87a3ef0115bf16e639d93094","UserId":45,"updatedAt":"2026-09-05T19:52:06.065Z","createdAt":"2026-09-05T19:52:06.065Z"}}

@@ -6,10 +6,10 @@ Feature-Policy: payment 'self'
 X-Recruiting: /#/jobs
 Content-Type: application/json; charset=utf-8
 Content-Length: 158
-ETag: W/"9e-PRc2t0PEcaIasT6CPJONtcEw7Do"
+ETag: W/"9e-MX1YWyX6SIECvO2XmXtoadqA33Q"
 Vary: Accept-Encoding
-Date: Sat, 05 Sep 2026 18:34:57 GMT
+Date: Sat, 05 Sep 2026 19:52:04 GMT
 Connection: keep-alive
 Keep-Alive: timeout=5
 
-{"status":"success","data":{"id":10,"ProductId":1,"BasketId":"17","quantity":2,"updatedAt":"2026-09-05T18:34:57.884Z","createdAt":"2026-09-05T18:34:57.884Z"}}
+{"status":"success","data":{"id":11,"ProductId":1,"BasketId":"22","quantity":2,"updatedAt":"2026-09-05T19:52:04.846Z","createdAt":"2026-09-05T19:52:04.846Z"}}
