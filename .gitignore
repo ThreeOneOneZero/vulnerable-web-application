@@ -13,3 +13,6 @@ __pycache__/
 .venv/
 venv/
 *.egg-info/
+
+# cola do apresentador, uso local apenas, nao versionar
+apresentacao/cola.html
